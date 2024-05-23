@@ -12,6 +12,8 @@ function App() {
     setTodos(todos.filter(todo => todo.id !== id));
   };
 
+  console.log("hello");
+
   return (
     <div className="app">
       <div className="mainHeading">
